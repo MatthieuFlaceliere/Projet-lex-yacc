@@ -1,0 +1,54 @@
+#--------------Int----------------------
+
+#Déclaration Int
+int resInt;
+int Nb1 10;
+int Nb2 3;
+int Nb3 7;
+
+#Calcul Int
+Set resInt (Nb1 + Nb2);
+Print resInt;
+Set resInt (Nb1 - Nb2);
+Print resInt;
+Set resInt (Nb1 * Nb2);
+Print resInt;
+Set resInt (Nb1 / Nb2);
+Print resInt;
+Set resInt ((Nb1 - Nb2) * Nb3 + (Nb3 / Nb1));
+Print resInt;
+
+/#--------------Fin Int-------------------
+--------------Bool----------------------#/
+
+#Déclaration Bool
+bool resBool;
+bool boolVar1 True;
+bool boolVar2 False;
+bool boolVar3 True;
+
+Set resBool (boolVar1 OR boolVar2);
+Print resBool;
+Set resBool (boolVar1 AND boolVar2);
+Print resBool;
+Set resBool (boolVar1 XOR boolVar2);
+Print resBool;
+Set resBool (NOT boolVar2);
+Print resBool;
+Set resBool ((boolVar1 AND boolVar2) XOR boolVar3 OR (NOT boolVar1));
+Print resBool;
+
+/#--------------Fin Bool------------------
+
+--------------Float------------------#/
+
+float resFloat;
+
+Set resFloat (SIN(1));
+Print resFloat;
+Set resFloat (COS(1));
+Print resFloat;
+Set resFloat (COS(Nb1 + Nb2 * COS(4)));
+Print resFloat;
+
+#--------------Fin Float---------------
